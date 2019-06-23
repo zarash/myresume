@@ -42,22 +42,6 @@ class Projects extends Component{
                     </CardMenu>
                     </Card>
 
-                    {/* this is project 3*/}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: 'grean', height: '176px', background: 'url(https://dwglogo.com/wp-content/uploads/2017/09/1460px-React_logo.png) center / cover'}}> React Project #3</CardTitle>
-                    <CardText>
-                    Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
-                    </CardText>
-                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>CodePen</Button>
-                        <Button colored>LiveDemo</Button>
-                    </CardActions>
-                    <CardMenu style={{ color: '#fff'}}>
-                        <IconButton name="share" />
-                    </CardMenu>
-                    </Card>
-
                 </div>
                 
             )

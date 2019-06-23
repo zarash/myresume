@@ -7,36 +7,36 @@ class Contact extends Component{
             <div className="contact-body">
               <Grid className="contact-grid">
                   <Cell col={6}>
-                      <h2>Zahra Ashrafi</h2>
+                      <h3>Zahra Ashrafi</h3>
                       <img 
-                        src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+                        src="https://www.uap.asia/wp-content/uploads/2017/01/me2.png"
                         alt="avatar"
                         style={{height: '250px'}}
                       /> 
-                      <p style={{ width: '75%' , margin:'auto', paddingTop: '1em'}}>I am zara</p>
+                      <p style={{ width: '75%' , margin:'auto', paddingTop: '1em'}}>Hi, I am Zahra</p>
                   </Cell>
 
                   <Cell col={6}>
-                      <h2>Contact Me</h2>
+                      <h3>Contact Me</h3>
                       <hr />
                       <div className="contact-list">
                         <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true" />
                                     (+98) 903-453-3190
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                            <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                            <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-envelope" aria-hidden="true" />
                                     Z.Ashrafi@yahoo.com
                                 </ListItemContent>
                             </ListItem>
 
                             <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true" />
                                     (+98) 903-453-3190
                                 </ListItemContent>

@@ -16,22 +16,23 @@ class Landing extends Component{
                             <h1>Full Stack Web Developer</h1>
                            
                             <hr />
-                        <p>HTML/CSS | Bootstrap | JavaScript | React | NodeJS | MongoDB</p>
+                        <p>HTML/CSS | Bootstrap | Ruby on Rails | JavaScript | React.js | NodeJS </p>
                         <div className="social-links">
 
                             {/* LinkdIn */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/zahra-ashrafi/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square"  aria-hidden="true" />
                             </a>
 
                             {/* Github */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/zarash" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square"  aria-hidden="true" />
                             </a>
 
                             {/* Youtube */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-youtube-square"  aria-hidden="true" />
+                            <a href="https://stackoverflow.com/users/6118904/zarash" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-stack-overflow"  aria-hidden="true" />
+                    
                             </a>
 
                         </div>
