@@ -8,7 +8,8 @@ class Landing extends Component{
                 <Grid className="Landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="https://www.uap.asia/wp-content/uploads/2017/01/me2.png"
+                            src="http://uupload.ir/files/gb2d_image_(2).jpeg"
+
                             alt="avatar"
                             className="avatar-img"
                         />

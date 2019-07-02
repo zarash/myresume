@@ -71,8 +71,10 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
   padding-right: 5rem;
 }
 .avatar-img{
-  height: 250px;
-  padding-top: 5em;
+ padding: 5em;
+ width: auto;
+ height: 250px;
+ border-radius: 50px;
 }
 
 .banner-text{
