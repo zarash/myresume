@@ -8,13 +8,13 @@ class Landing extends Component{
                 <Grid className="Landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="http://uupload.ir/files/gb2d_image_(2).jpeg"
+                            src="https://www.uap.asia/wp-content/uploads/2017/01/me2.png"
 
                             alt="avatar"
                             className="avatar-img"
                         />
                         <div className="banner-text"> 
-                            <h1>Full Stack Web Developer</h1>
+                            <h2>Full Stack Web Developer</h2>
                            
                             <hr />
                         <p>HTML/CSS | Bootstrap | Ruby on Rails | JavaScript | React.js | NodeJS </p>

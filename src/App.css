@@ -62,7 +62,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 
 .contact-grid hr {
   border-top: 5px dotted gray;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
@@ -71,28 +71,28 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
   padding-right: 5rem;
 }
 .avatar-img{
- padding: 5em;
+ padding: 4em 0 1em 0;
  width: auto;
- height: 250px;
+ height: 200px;
  border-radius: 50px;
 }
 
 .banner-text{
   background-color: black;
   opacity: .8;
-  width: 75%;
+  width: 60%;
   margin: auto;
   border-radius: 10px;
 }
 
-.banner-text h1 {
-  font-size: 66px;
+.banner-text h2 {
+  
   font-weight: bold;
   color: white;
 }
 .banner-text hr{
-  border-top: 5px dotted white;
-  width: 50%;
+  border-top: 3px dotted white;
+  width: 60%;
   margin: auto;
 
 }
@@ -105,7 +105,7 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 .social-links i {
