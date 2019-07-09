@@ -31,6 +31,14 @@ background: linear-gradient(to left, #243B55, #141E30); /* W3C, IE 10+/ Edge, Fi
   
 }
 
+.resume-left-col {
+  background: #dfe0e0;
+  color: rgb(0, 0, 0);
+  padding: 2em;
+  border-radius: 70px;
+  height:500px;
+}
+
 
 /* contact page css */
 .contact-body {

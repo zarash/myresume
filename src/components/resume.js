@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {  Grid, Card } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
 
 class Resume extends Component{
     render(){
@@ -23,7 +22,7 @@ class Resume extends Component{
                         <h5 style={{margin: '1px'}}>Email</h5>
                         <p>Z.Ashrafi@yahoo.com</p>
                     </Card>
-                    <Card className="resume-right-col" col={8} shadow={5} style={{minWidth: '50%', margin: '2% auto', backgroundColor: '#f2f2f2'}}
+                    <Card className="resume-left-col" col={8} shadow={5} style={{minWidth: '50%', margin: '2% auto',overflowY: 'scroll'}}
                      
                     >
 
@@ -59,15 +58,6 @@ class Resume extends Component{
                           jobName = "Software Developer"
                           jobDescription = "Company: Iranian Hosh Afzone"
                         />
-
-                        <hr style={{borderTop: '3px solid #c2d6d6'}} />
-
-                        <h5>Skills</h5>
-                        <Skills 
-                          skill="React.js"
-                          Progress={65}
-                        /> 
-
                     </Card>
                 </Grid>
 
