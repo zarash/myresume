@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell} from 'react-mdl';
+import {  Grid, Card } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -9,30 +9,25 @@ class Resume extends Component{
         return(
             <div>
                 <Grid>
-                    <Cell col={4}>
-                        <div style={{textAlign: "center"}}>
+                    <Card className="resume-right-col" col={3}  style={{minWidth: '20%', margin: '0.5% auto'}}>
                           <img 
                             src="https://www.uap.asia/wp-content/uploads/2017/01/me2.png"
                             alt="avatar"
-                            style={{height: '200px'}}
-                          />
-                        </div>
-                        <h2 style={{paddingTop: '2em'}}>Zahra Ashrafi</h2>
-                        <h4 style={{color:'grey'}}>Software Developer</h4>
-                        <hr style={{borderTop: '3px solid #c2d6d6', width: '50%'}}/>
-                        <p> Software Development professional with six years experience programming in C#.Net & Ruby on Rails & JavaScript</p>
-                        <hr style={{borderTop: '3px solid #c2d6d6', width: '50%'}}/>
-                        <h5>Address</h5>
-                        <p> East Azerbaijan, Tabriz</p>
-                        <h5>Phone</h5>
+                            style={{height: '170px', width: '170px'}}
+                          /> 
+                        <h4 style={{color:' #1f60a9'}}> Hi, I'm Zahra Ashrafi!</h4>
+                        <h6 style={{color:'grey',margin: '1px'}}>Software Developer</h6>
+                        <p style={{}}>professional with six years experience programming in C#.Net & Ruby on Rails & JavaScript</p>
+                        <h5 style={{margin: '1px'}}>Phone</h5>
                         <p>(+98) 903-453-3190</p>
-                        <h5>Email</h5>
+                        <h5 style={{margin: '1px'}}>Email</h5>
                         <p>Z.Ashrafi@yahoo.com</p>
-                        <hr style={{borderTop: '3px solid #c2d6d6', width: '50%'}}/>
-                    </Cell>
-                    <Cell className="resume-right-col" col={8} shadow={5} style={{ margin: 'auto'}}>
+                    </Card>
+                    <Card className="resume-right-col" col={8} shadow={5} style={{minWidth: '50%', margin: '2% auto', backgroundColor: '#f2f2f2'}}
+                     
+                    >
 
-                        <h5>Education</h5>
+                        <h5 style={{color: 'blue'}}>Education</h5>
 
                         <Education 
                             startYear = {2014}
@@ -49,10 +44,8 @@ class Resume extends Component{
                             SchoolBranch = "Branch: Software"
                             SchoolDescription = " University: Tabriz Azad University"
                        />
-                  
-                        <hr style={{borderTop: '3px solid #c2d6d6'}} />
 
-                        <h5>Experience</h5>
+                        <h5 style={{color: 'blue'}}>Experience</h5>
                         <Experience
                           startYear = {2017}
                           endYear = {2019}
@@ -75,24 +68,11 @@ class Resume extends Component{
                           Progress={65}
                         /> 
 
-                        <Skills 
-                          skill="JavaScript"
-                          Progress={80}
-                        /> 
-
-                        <Skills 
-                          skill="Node.js"
-                          Progress={50}
-                        />
-
-                        <Skills 
-                          skill="Ruby on Rails"
-                          Progress={80}
-                        /> 
-
-                    </Cell>
+                    </Card>
                 </Grid>
+
             </div>
+            
         )
     }
 }
