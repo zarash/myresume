@@ -22,7 +22,7 @@ class Resume extends Component{
                         <h5 style={{margin: '1px'}}>Email</h5>
                         <p>Z.Ashrafi@yahoo.com</p>
                     </Card>
-                    <Card className="resume-left-col" col={8} shadow={5} style={{minWidth: '50%', margin: '2% auto',overflowY: 'scroll'}}
+                    <Card className="resume-left-col" col={8} shadow={5} style={{minWidth: '50%', margin: '2% auto',overflowY: 'scroll', backgroundColor: '#f2f2f2'}}
                      
                     >
 
